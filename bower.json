@@ -1,0 +1,20 @@
+{
+  "name": "message_board",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hiEven/message_board",
+  "authors": [
+    "Even <kiki44552002@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
