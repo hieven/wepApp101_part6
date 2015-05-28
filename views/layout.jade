@@ -1,7 +1,16 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title= "Sticker Pad"
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Raleway:400,300")
+    link(rel="stylesheet", href="/components/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/stylesheets/index.css")
   body
+    //include _navbar
+
+    include _sideBar
+
     block content
+
+    script(src="/components/jquery/dist/jquery.min.js")
+    script(src="/components/bootstrap/dist/js/bootstrap.min.js")

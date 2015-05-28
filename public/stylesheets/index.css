@@ -1,0 +1,66 @@
+/***********************************************
+ **  GENERAL SETTING
+ ************************************************/
+
+body {
+  background-color: rgb(214, 214, 214);
+  font-family:      'Raleway', 'Helvetica';
+  font-weight:      300;
+}
+
+#sideBar a {
+  color: #666;
+}
+
+#sideBar a:hover {
+  color:                 #14B694;
+  text-decoration-color: #14B694;
+}
+
+/***********************************************
+ **  SIDE BAR
+ ************************************************/
+
+#sideBar {
+  position: fixed;
+  top:      0;
+  left:     0;
+  height:   100vh;
+  padding:  40px 30px 20px 30px;
+  color:    white;
+  background-image: url('http://www.the-cartel.co/wp-content/themes/Pronto/images/nav-bg.jpg');
+  background-color: black;
+}
+
+  #brand a {
+    text-decoration: none;
+  }
+
+
+  #brand h1 {
+    padding:    20px;
+    margin:     0 0 60px 0;
+    font-size:  20px;
+    border:     3px solid #ccc;
+    color:      white;
+    text-align: center;
+  }
+
+  #brand h1:hover {
+    color: #14B694;
+  }
+
+
+  #navbar {
+    text-align: center;
+
+  }
+
+    #site-navigation {
+      padding:    0;
+      list-style: none;
+    }
+
+    #site-navigation .menu-item {
+      padding: 10px;
+    }
